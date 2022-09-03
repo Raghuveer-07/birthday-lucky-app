@@ -44,6 +44,6 @@ checkButton.addEventListener("click", () => {
       const sumOfDate = CalculateDateSum(date);
       CheckIfLucky(sumOfDate,numberlucky);
     } else {
-        outputResult.innerText("enter value of both the fields.");
+        outputResult.innerText="enter value of both the fields.";
     }
   });
