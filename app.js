@@ -40,7 +40,7 @@ function CheckIfLucky(_sumOfDate,numberlucky){
 checkButton.addEventListener("click", () => {
     const date =birthDate.value;
     const numberlucky = luckyNumber.value;
-    if (date && numberlucky) {
+    if (date && numberlucky>0) {
       const sumOfDate = CalculateDateSum(date);
       CheckIfLucky(sumOfDate,numberlucky);
     } else {
